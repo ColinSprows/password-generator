@@ -22,7 +22,8 @@ function generatePassword() {
   if (characterChoice >= 8 && characterChoice <= 128) {
     console.log(characterChoice)
   } else {
-    alert("Please choose a number between 8-128!")
+    alert("Please choose a number between 8-128!");
+    return null;
   }
 
   // Confirm character types
